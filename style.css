@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 150%;
+  background-image: url(img/beach.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: auto;
+}
+
+header {
+  background: rgba(17, 19, 17, 0.75);
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #eee;
+  text-align: center;
+  font-weight: 600;
+}
+
+h2 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #eee;
+  text-align: center;
+  font-weight: 600;
+}
+
+.nav {
+  background: rgba(17, 19, 17, 0.75);
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+#bio-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 3%;
+  font-weight: bold;
+  color: #000000;
+}
