@@ -17,90 +17,106 @@ body {
   padding: 0;
 }
 
-.row-1 {
-  background: rgba(17, 19, 17, 0.75);
-}
+/*Name at top of the page*/
+  .row-1 {
+    background: rgba(17, 19, 17, 0.75);
+  }
 
-header {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 40px;
-  color: #eee;
-  text-align: center;
-  font-weight: 600;
-}
+  header {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #eee;
+    text-align: center;
+    font-weight: 600;
+  }
 
-.row-2 {
-  background: rgba(17, 19, 17, 0.75);
-}
+/*Navbar*/
+  .row-2 {
+    background: rgba(17, 19, 17, 0.75);
+  }
 
-.row-3 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 40px;
-  color: #eee;
-  text-align: center;
-  font-weight: 600;
-}
+/*About me and description*/
+  .row-3 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #eee;
+    text-align: center;
+    font-weight: 600;
+  }
 
-#bio-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 550px;
-  height: auto;
+  #bio-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+    height: auto;
+    width: 100%;
+  }
+
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+
+  div.transbox p {
+    margin: 3%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+/*Portfolio cards*/
+  .card-title {
+    font-size: 30px;
+  }
+
+  .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    background: rgba(17, 19, 17, 0.75);
+    color: #eee;
+  }
+
+  .card-img-top {
+    max-width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-text {
+    font-size: 20px;
+  }
+
+  .container-fluid-2 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+  }
+
+/*Contact box*/
+  .row-cont {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    background: rgba(17, 19, 17, 0.75);
+    color: #eee;
+    max-width: 1400px;
+  }
+
+/*Sticky Footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
-}
-
-div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-}
-
-div.transbox p {
-  margin: 3%;
-  font-weight: bold;
-  color: #000000;
-}
-
-.card-title {
-  font-size: 30px;
-}
-
-.card {
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 10px;
-  background: rgba(17, 19, 17, 0.75);
-  color: #eee;
-}
-
-.card-img-top {
-  max-width: 750px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.card-text {
-  font-size: 20px;
-}
-
-.container-fluid-2 {
+  background-color: rgba(17, 19, 17, 0.75);
+  color: white;
   text-align: center;
-  padding: 20px;
-  margin: 20px;
-}
-
-.row-cont {
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 10px;
-  background: rgba(17, 19, 17, 0.75);
-  color: #eee;
-max-width: 1400px;
 }
